@@ -8,9 +8,9 @@ A full-featured mini helpdesk system built with **Node.js**, **Express**, **Mong
 
 | Service | URL |
 |---------|-----|
-| Frontend | http://localhost:3000 |
-| Backend API | http://localhost:5000 |
-| Health Check | http://localhost:5000/health |
+| Frontend | https://frontend-eta-virid-72.vercel.app |
+| Backend API | https://support-ticket-backend-ethy.onrender.com |
+| Health Check | https://support-ticket-backend-ethy.onrender.com/health |
 
 **Demo Accounts** (after seeding):
 | Role | Email | Password |
