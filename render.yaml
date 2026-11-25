@@ -10,10 +10,8 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
-      - key: PORT
-        value: 5000
       - key: MONGODB_URI
-        sync: false
+        value: mongodb+srv://nattalabhagyaraj_db_user:QRidDJ8tFX5xcYXs@cluster0.tljzkxi.mongodb.net/support_tickets?retryWrites=true&w=majority
       - key: JWT_SECRET
         generateValue: true
       - key: JWT_REFRESH_SECRET
@@ -23,4 +21,8 @@ services:
       - key: JWT_REFRESH_EXPIRES_IN
         value: 30d
       - key: FRONTEND_URL
-        sync: false
+        value: http://localhost:3000,https://frontend-eta-virid-72.vercel.app,https://frontend-a3b4qs9xf-nattalabhagyaraj-gmailcoms-projects.vercel.app
+      - key: RATE_LIMIT_WINDOW_MS
+        value: 900000
+      - key: RATE_LIMIT_MAX
+        value: 100
